@@ -1,0 +1,275 @@
+/* roboto-100normal - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src:
+    local('Roboto Thin '),
+    local('Roboto-Thin'),
+    url(fonts/roboto-latin-100.woff2) format('woff2'), /* Super Modern Browsers */
+    url(fonts/roboto-latin-100.woff) format('woff'); /* Modern Browsers */
+}
+
+/* roboto-100italic - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100;
+  src:
+    local('Roboto Thin italic'),
+    local('Roboto-Thinitalic'),
+    url(fonts/roboto-latin-100italic.woff2) format('woff2'), /* Super Modern Browsers */
+    url(fonts/roboto-latin-100italic.woff) format('woff'); /* Modern Browsers */
+}
+
+/* roboto-300normal - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('Roboto Light '),
+    local('Roboto-Light'),
+    url(fonts/roboto-latin-300.woff2) format('woff2'), /* Super Modern Browsers */
+    url(fonts/roboto-latin-300.woff) format('woff'); /* Modern Browsers */
+}
+
+/* roboto-300italic - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('Roboto Light italic'),
+    local('Roboto-Lightitalic'),
+    url(fonts/roboto-latin-300italic.woff2) format('woff2'), /* Super Modern Browsers */
+    url(fonts/roboto-latin-300italic.woff) format('woff'); /* Modern Browsers */
+}
+
+/* roboto-400normal - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Roboto Regular '),
+    local('Roboto-Regular'),
+    url(fonts/roboto-latin-400.woff2) format('woff2'), /* Super Modern Browsers */
+    url(fonts/roboto-latin-400.woff) format('woff'); /* Modern Browsers */
+}
+
+/* roboto-400italic - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Roboto Regular italic'),
+    local('Roboto-Regularitalic'),
+    url(fonts/roboto-latin-400italic.woff2) format('woff2'), /* Super Modern Browsers */
+    url(fonts/roboto-latin-400italic.woff) format('woff'); /* Modern Browsers */
+}
+
+/* roboto-500normal - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src:
+    local('Roboto Medium '),
+    local('Roboto-Medium'),
+    url(fonts/roboto-latin-500.woff2) format('woff2'), /* Super Modern Browsers */
+    url(fonts/roboto-latin-500.woff) format('woff'); /* Modern Browsers */
+}
+
+/* roboto-500italic - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src:
+    local('Roboto Medium italic'),
+    local('Roboto-Mediumitalic'),
+    url(fonts/roboto-latin-500italic.woff2) format('woff2'), /* Super Modern Browsers */
+    url(fonts/roboto-latin-500italic.woff) format('woff'); /* Modern Browsers */
+}
+
+/* roboto-700normal - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    local('Roboto Bold '),
+    local('Roboto-Bold'),
+    url(fonts/roboto-latin-700.woff2) format('woff2'), /* Super Modern Browsers */
+    url(fonts/roboto-latin-700.woff) format('woff'); /* Modern Browsers */
+}
+
+/* roboto-700italic - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    local('Roboto Bold italic'),
+    local('Roboto-Bolditalic'),
+    url(fonts/roboto-latin-700italic.woff2) format('woff2'), /* Super Modern Browsers */
+    url(fonts/roboto-latin-700italic.woff) format('woff'); /* Modern Browsers */
+}
+
+/* roboto-900normal - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src:
+    local('Roboto Black '),
+    local('Roboto-Black'),
+    url(fonts/roboto-latin-900.woff2) format('woff2'), /* Super Modern Browsers */
+    url(fonts/roboto-latin-900.woff) format('woff'); /* Modern Browsers */
+}
+
+/* roboto-900italic - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 900;
+  src:
+    local('Roboto Black italic'),
+    local('Roboto-Blackitalic'),
+    url(fonts/roboto-latin-900italic.woff2) format('woff2'), /* Super Modern Browsers */
+    url(fonts/roboto-latin-900italic.woff) format('woff'); /* Modern Browsers */
+}
+
+
+/*!
+ * OS.js - JavaScript Cloud/Web Desktop Platform
+ *
+ * Copyright (c) Anders Evenrud <andersevenrud@gmail.com>
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ *    list of conditions and the following disclaimer
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ * @author  Anders Evenrud <andersevenrud@gmail.com>
+ * @license Simplified BSD License
+ */.osjs-root{overflow:hidden;line-height:normal;font-size:13px;width:100%;height:100%;margin:0;padding:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(f4cfc6708cf6bfc17d4b1e775f594ae2.png);position:fixed;top:0;left:0;touch-action:none}.osjs-root[data-dir=rtl]{direction:rtl}.osjs-root input,.osjs-root label,.osjs-root textarea{-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text}.osjs-root[data-mousemove=true] iframe{pointer-events:none}.osjs-boot-splash{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:9999999999;background-color:#000;color:#fff;font-size:120%;font-family:sans-serif;padding:1em;text-align:center}.osjs-contents{position:absolute;top:0;left:0;right:0;bottom:0;z-index:10}.osjs-window-behavior-lofi{position:absolute;border:2px solid #000}.osjs-window-resize{z-index:10;position:absolute;min-width:1em;min-height:1em}.osjs-window-resize[data-direction^=n]{top:-.5em}.osjs-window-resize[data-direction^=s]{bottom:-.5em}.osjs-window-resize[data-direction$=w]{left:-.5em}.osjs-window-resize[data-direction$=e]{right:-.5em}.osjs-window-resize[data-direction=nw]{cursor:nw-resize}.osjs-window-resize[data-direction=sw]{cursor:sw-resize}.osjs-window-resize[data-direction=ne]{cursor:ne-resize}.osjs-window-resize[data-direction=se]{cursor:se-resize}.osjs-window-resize[data-direction=n]{cursor:n-resize}.osjs-window-resize[data-direction=s]{cursor:s-resize}.osjs-window-resize[data-direction=w]{cursor:w-resize}.osjs-window-resize[data-direction=e]{cursor:e-resize}.osjs-window-resize[data-direction=n],.osjs-window-resize[data-direction=s]{left:.5em;right:.5em}.osjs-window-resize[data-direction=e],.osjs-window-resize[data-direction=w]{top:.5em;bottom:.5em}.osjs-window-inner{position:relative;z-index:1;display:flex;height:100%;width:100%;flex-direction:column}.osjs-window-header{display:flex;position:relative;box-sizing:border-box;flex:0 0;min-height:2.2em}.osjs-window-header>div{height:100%}.osjs-window-icon>div{width:1em;height:1em;background:url(881c86876af63b732063d7bdd51bb226.png) no-repeat 50% 50%;background-size:cover;cursor:pointer}.osjs-window-title{flex-grow:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;pointer-events:none}.osjs-window-button{cursor:pointer;min-width:1em;position:relative;flex-basis:1em}.osjs-window-button *{pointer-events:none}.osjs-window-button>div{width:1em;height:1em}.osjs-window-button:not(:last-child){margin-right:.25em}.osjs-root[data-dir=rtl] .osjs-window-button:not(:last-child){margin-right:0;margin-left:.25em}.osjs-window-content{box-sizing:border-box;position:relative;z-index:1;overflow:hidden;width:100%;height:100%;max-width:100%;flex:1 1;user-select:auto}.osjs-window{position:absolute;box-sizing:border-box;user-select:none;visibility:visible;touch-action:none;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);transform:translateZ(0);-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden;-webkit-perspective:1000;-moz-perspective:1000;perspective:1000}.osjs-window:after{content:"";position:absolute;top:0;left:0;right:0;bottom:0;z-index:9999999999;display:none}.osjs-window[data-maximized=true]{top:0!important;left:0!important;width:100%!important;height:100%!important}.osjs-window[data-maximized=true] .osjs-window-resize{cursor:inherit!important}.osjs-window[data-minimized=true]{display:none;visibility:hidden}.osjs-window[data-focused=false] iframe{pointer-events:none}.osjs-window[data-moving=true],.osjs-window[data-resizing=true]{cursor:move}.osjs-window[data-loading=true]:after{display:block}.osjs-window.osjs__drop{outline:2px solid #000}.osjs-window[data-closable=false] .osjs-window-button[data-action=close],.osjs-window[data-maximizable=false] .osjs-window-button[data-action=maximize],.osjs-window[data-minimizable=false] .osjs-window-button[data-action=minimize],.osjs-window[data-resizable=false] .osjs-window-resize{display:none}.osjs-root[data-window-action=true] .osjs-window *{pointer-events:none}.osjs-root[data-mobile=true] .osjs-window{top:0!important;left:0!important;width:100%!important;height:100%!important;opacity:1}.osjs-root[data-mobile=true] .osjs-window .osjs-window-button[data-action=maximize]{display:none}.osjs-notifications{position:absolute;top:0;right:0;pointer-events:none;box-sizing:border-box;padding:1em;z-index:16777272;overflow:visible}.osjs-notification{padding:1em;box-sizing:border-box;pointer-events:all;min-width:200px;margin-bottom:1em}.osjs-notification-wrapper{background-size:3em;background-repeat:no-repeat}.osjs-notification-wrapper[data-has-icon=true]{padding-left:4em}.osjs-root.login:after{position:absolute;top:0;bottom:0;right:0;left:0;content:"";z-index:1000;background:radial-gradient(ellipse at center,rgba(0,0,0,.2) 0,rgba(0,0,0,.65) 100%)}.osjs-login{position:absolute;top:50%;left:50%;z-index:99999;transform:translate(-50%,-50%);display:flex}.osjs-login .osjs-login-field{position:relative}.osjs-login button,.osjs-login input,.osjs-login select{padding:.5em;display:block;width:100%;border-radius:0;border:0;font-family:inherit;font-size:inherit;color:inherit;box-sizing:border-box}.osjs-login button,.osjs-login input[type=submit]{cursor:pointer}#osjs-login{font-family:Roboto,sans-serif;max-width:400px;width:80%}#osjs-login .osjs-login-header{text-align:center;font-weight:300;font-weight:700;font-size:2em;text-transform:uppercase;color:#fff;letter-spacing:4px;line-height:1.5}#osjs-login .osjs-login-logo{min-width:1em;min-height:1em;height:100%;width:100%;background-size:contain;background-repeat:no-repeat;background-position:50%}#osjs-login .osjs-login-logo[data-position=bottom],#osjs-login .osjs-login-logo[data-position=middle],#osjs-login .osjs-login-logo[data-position=top]{min-height:4em}#osjs-login .osjs-login-logo[data-position=left],#osjs-login .osjs-login-logo[data-position=right]{min-width:4em}#osjs-login .osjs-login-logo[data-position=bottom]{margin-top:2em}#osjs-login>div[data-position=left]{margin-right:2em}#osjs-login>div[data-position=right]{margin-left:2em}#osjs-login .osjs-login-content{width:100%;display:flex;flex-direction:column}#osjs-login .osjs-login-field{margin-top:2em}#osjs-login .osjs-login-field-select{position:relative}#osjs-login .osjs-login-field-select:after{content:"↴";position:absolute;top:50%;right:.5em;transform:translate(-50%,-50%);color:#fff}#osjs-login .osjs-login-error{background:rgba(255,0,0,.8);color:#fff;text-align:center;text-decoration:uppercase;padding:1em;margin-top:2em}#osjs-login .osjs-login-stamp{margin-top:2em;font-size:80%;text-align:right;color:hsla(0,0%,100%,.5)}#osjs-login input{outline:1px solid hsla(0,0%,100%,.5)}#osjs-login input:active,#osjs-login input:focus{box-shadow:0 0 .5em hsla(0,0%,100%,.8)}#osjs-login button,#osjs-login input[type=submit]{padding:1em;background-color:#fff;letter-spacing:1px;text-transform:uppercase}#osjs-login input[type=password],#osjs-login input[type=text],#osjs-login select{padding:1em;background:hsla(0,0%,100%,.5);color:#fff;letter-spacing:1px}#osjs-login select{-webkit-appearance:none;-moz-appearance:none;appearance:none}#osjs-login select option{color:#000}#osjs-login ::-webkit-input-placeholder{color:#fff;text-transform:uppercase;font-family:inherit;font-weight:700}#osjs-login ::-moz-placeholder{color:#fff;text-transform:uppercase;font-family:inherit;font-weight:700}#osjs-login :-ms-input-placeholder{color:#fff;text-transform:uppercase;font-family:inherit;font-weight:700}#osjs-login :-moz-placeholder{color:#fff;text-transform:uppercase;font-family:inherit;font-weight:700}.osjs-search{position:absolute;top:50%;left:50%;z-index:1000000000000000100;width:0;height:0;overflow:visible}.osjs-search-container{position:relative;display:flex;flex-direction:column;width:50vw;max-height:80vh;transform:translate(-50%,-50%)}.osjs-search-input{display:block;width:100%;box-sizing:border-box;padding:1em}.osjs-search-message{padding:1em}.osjs-search-results{margin:0;padding:0;list-style-type:none;overflow-x:hidden;overflow-y:scroll}.osjs-search-result{padding:0;margin:1em;display:flex;align-items:center;cursor:pointer}.osjs-search-result img{margin-right:1em;width:16px;height:16px}.osjs-desktop-iconview{position:absolute;top:0;right:0;bottom:0;left:0}.osjs-desktop-iconview__wrapper{position:absolute;top:1em;left:1em;width:calc(100% - 2em);height:calc(100% - 2em)}.osjs-desktop-iconview__entry{vertical-align:top;display:inline-block;position:relative;z-index:0;text-align:center;overflow:hidden;margin:.5em;width:5em;height:6.5em}.osjs-desktop-iconview__entry__inner{width:100%;min-height:100%}.osjs-desktop-iconview__entry__icon{flex-grow:1;height:4.5em;width:100%;padding:.5em;box-sizing:border-box;position:relative}.osjs-desktop-iconview__entry__icon__shortcut{width:1em;position:absolute;bottom:0;right:0}.osjs-desktop-iconview__entry__icon__icon{width:100%}.osjs-desktop-iconview__entry__label{height:1rem;width:100%;box-sizing:border-box;overflow:hidden;text-align:center;word-break:break-all;text-overflow:ellipsis}.osjs-desktop-iconview__entry--selected{z-index:1;overflow:visible}.osjs-desktop-iconview__entry--selected .osjs-desktop-iconview__entry__icon{background-color:rgba(0,0,200,.9)}.osjs-desktop-iconview__entry--selected .osjs-desktop-iconview__entry__label{padding:0 .5em .5em;background-color:rgba(0,0,200,.9);color:#fff;overflow:visible;height:auto;overflow-wrap:break-word}
+/*!
+ * OS.js - JavaScript Cloud/Web Desktop Platform
+ *
+ * Copyright (c) 2011-2020, Anders Evenrud <andersevenrud@gmail.com>
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ *    list of conditions and the following disclaimer
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ * @author  Anders Evenrud <andersevenrud@gmail.com>
+ * @licence Simplified BSD License
+ */.osjs-gui{display:flex;position:relative;min-width:1em;min-height:1em;box-sizing:border-box}.osjs-window-content>.osjs-gui-box:only-child{position:absolute;top:0;left:0;right:0;bottom:0}.osjs-gui-horizontal{flex-direction:column}.osjs-gui-vertical{flex-direction:row}.osjs-icon{background-repeat:no-repeat;background-position:50% 50%;background-color:transparent;background-size:100%;min-width:1rem;min-height:1rem;display:inline-block;vertical-align:middle}.osjs-gui-box{display:flex;overflow:hidden}.osjs-gui-box>.osjs-gui-menubar,.osjs-gui-box>.osjs-gui-statusbar,.osjs-gui-box>.osjs-gui-toolbar{flex-shrink:0}.osjs-gui-box-container,.osjs-gui-box>.osjs-gui{margin:.5em;flex-shrink:0}.osjs-gui-button>button{cursor:pointer;display:block;margin:0;padding:.5em;outline:0 none;width:100%;height:100%;overflow:hidden;border:0;background:transparent;box-sizing:border-box;font-family:inherit;font-size:inherit;white-space:nowrap}.osjs-gui-button>button::-moz-focus-inner{border:0;padding:0}.osjs-gui-button>button>.osjs-icon+.osjs-label{margin-left:.5em}.osjs-gui-button>button>span{vertical-align:middle}.osjs-gui-field{position:relative}.osjs-gui-field input,.osjs-gui-field select,.osjs-gui-field textarea{display:block;width:100%;height:100%;outline:none;padding:.5em;margin:0;background:transparent;border:0;box-sizing:border-box;resize:none;font-family:inherit;font-size:inherit;border-radius:0}.osjs-gui-textarea-field{flex-direction:column}.osjs-gui-textarea-field>textarea{flex-grow:1}.osjs-gui-select-field>div{position:relative;flex-basis:100%}.osjs-gui-select-field>div>select{-webkit-appearance:none;-moz-appearance:none;appearance:none}.osjs-gui-select-field>div:after{content:"↴";position:absolute;top:50%;transform:translateY(-50%);display:inline-block;width:1em;height:1em;right:.5em}.osjs-gui-toggle-field>label{position:relative;user-select:none!important;display:flex}.osjs-gui-toggle-field>label>input{display:block;position:absolute;visibility:hidden;top:0;left:0;width:100%;height:100%;-webkit-appearance:none;-moz-appearance:none;appearance:none}.osjs-gui-toggle-field>label>input:checked+span:after{display:block}.osjs-gui-toggle-field>label>.osjs-toggle-input{position:relative;display:inline-block;width:1em;height:1em}.osjs-gui-toggle-field>label>.osjs-toggle-input:after,.osjs-gui-toggle-field>label>.osjs-toggle-input:before{content:"";position:absolute;width:1em;height:1em;box-sizing:border-box}.osjs-gui-toggle-field>label>.osjs-toggle-input:before{z-index:10}.osjs-gui-toggle-field>label>.osjs-toggle-input:after{content:"❌";display:none;font-size:80%;top:50%;left:50%;transform:translate(-50%,-50%);z-index:20}.osjs-gui-toggle-field>label>.osjs-toggle-label{display:block;flex-grow:1;position:relative;padding-left:.5em}.osjs-gui-field-label{display:flex;flex-wrap:nowrap;justify-content:left}.osjs-gui-field-label>label{display:block}.osjs-gui-field-label>.osjs-gui{margin:0}.osjs-gui-field-label.osjs-gui-field-label-on-top{flex-direction:column}.osjs-gui-field-label.osjs-gui-field-label-on-top>label{margin-bottom:.5em}.osjs-gui-field-label.osjs-gui-field-label-on-bottom{flex-direction:column-reverse}.osjs-gui-field-label.osjs-gui-field-label-on-bottom>label{margin-top:.5em}.osjs-gui-field-label.osjs-gui-field-label-on-left{flex-direction:row;align-items:center}.osjs-gui-field-label.osjs-gui-field-label-on-left>label{margin-right:.5em}.osjs-gui-field-label.osjs-gui-field-label-on-left>.osjs-gui{flex:1 1}.osjs-root[data-dir=rtl] .osjs-gui-select-field>div:after{right:auto;left:.5em}.osjs-gui-list-view{overflow:hidden}.osjs-gui-list-view .osjs-icon{margin-right:.5em}.osjs-gui-list-view-wrapper{min-height:4em;display:flex;flex-basis:100%;overflow:auto;align-items:flex-start;position:relative}.osjs-gui-list-view-pane{min-width:1em;min-height:1em;position:relative;flex:1 1}.osjs-gui-list-view-pane:last-child{flex-grow:1}.osjs-gui-list-view-cell,.osjs-gui-list-view-header{position:relative;padding:.5em;flex-shrink:0;z-index:1;min-height:1em;display:flex}.osjs-gui-list-view-cell>span,.osjs-gui-list-view-header>span{min-height:1rem;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;flex:1 1;line-height:1}.osjs-gui-list-view-header{z-index:10;position:sticky;top:0}.osjs-root[data-dir=rtl] .osjs-gui-list-view .osjs-icon{margin-right:0;margin-left:.5em}.osjs-gui-icon-view-wrapper{flex-basis:100%;flex-wrap:wrap;overflow:auto}.osjs-gui-icon-view-entry{position:relative;display:inline-block;width:6em;height:7em;text-align:center;overflow:visible;z-index:1}.osjs-gui-icon-view-entry.osjs__active{z-index:2}.osjs-gui-icon-view-entry.osjs__active .osjs__label{overflow:visible!important;height:auto!important}.osjs-gui-icon-view-entry *{pointer-events:none}.osjs-gui-icon-view-entry>.osjs__container{box-sizing:border-box;position:absolute;top:0;left:0;width:100%;height:100%}.osjs-gui-icon-view-entry>.osjs__container>.osjs__image{padding:.5em}.osjs-gui-icon-view-entry>.osjs__container>.osjs__image>.osjs-icon{width:3em;height:3em}.osjs-gui-icon-view-entry>.osjs__container>.osjs__label{padding:.5em;height:2em;line-height:1.2;overflow:hidden;word-break:break-all}.osjs-gui-icon-view-entry>.osjs__container>.osjs__label>span,.osjs-gui-image{display:block}.osjs-gui-video{display:block;background-color:#000;flex-basis:100%}.osjs-gui-video>video{background-color:#000;width:100%;height:100%}.osjs-gui-menubar{margin:0!important}.osjs-gui-menubar>div{box-sizing:border-box}.osjs-gui-menubar>div>span{margin:.5em;display:block;pointer-events:none}.osjs-gui-menu{position:absolute;z-index:9999999999}.osjs-gui-menu ul{list-style-type:none}.osjs-gui-menu ul,.osjs-gui-menu ul>li{margin:0;padding:0}.osjs-gui-menu ul>li>div{position:relative;cursor:pointer}.osjs-gui-menu ul>li>div>ul{display:none;position:absolute;z-index:10;left:100%;top:0}.osjs-gui-menu ul>li>div>ul.clamp-right{left:auto;right:100%}.osjs-gui-menu ul>li>div:hover>ul{display:block}.osjs-gui-menu-separator{height:1px;display:block;padding:.5em;box-sizing:border-box}.osjs-gui-menu-separator:after{content:"";display:block;background:hsla(0,0%,100%,.5);height:1px}.osjs-gui-menu-label{display:flex;padding:.5em 1.5em .5em .5em;box-sizing:border-box;position:relative;pointer-events:none;white-space:nowrap;min-height:1rem;align-items:center}.osjs-gui-menu-label>.osjs-gui-menu-checkbox,.osjs-gui-menu-label>.osjs-icon{margin-right:.5em}.osjs-gui-menu-label>.osjs-gui-menu-checkbox:after{left:50%;top:50%;transform:translate(-50%,-50%);content:"✓";text-align:center;display:none}.osjs-gui-menu-label>.osjs-gui-menu-checkbox.active:after{display:inline}.osjs-gui-menu-container[data-has-children]>.osjs-gui-menu-label:after{content:"▶";position:absolute;right:.5em;top:50%;transform:translateY(-50%)}.osjs-root[data-dir=rtl] .osjs-gui-menu-label{padding-right:.5em;padding-left:1.5em}.osjs-root[data-dir=rtl] .osjs-gui-menu-label>.osjs-gui-menu-checkbox,.osjs-root[data-dir=rtl] .osjs-gui-menu-label>.osjs-icon{margin-right:0;margin-left:.5em}.osjs-root[data-dir=rtl] .osjs-gui-menu-container[data-has-children]>.osjs-gui-menu-label:after{right:auto;left:.5em}.osjs-gui-panes{height:100%;overflow:hidden;position:relative}.osjs-gui-panes-inner{position:absolute;top:0;left:0;right:0;bottom:0;display:flex}.osjs-gui-panes-inner.osjs-gui-vertical>.osjs-gui-panes-pane>.osjs-gui{width:100%}.osjs-gui-panes-inner.osjs-gui-vertical>.osjs-gui-panes-spacer{height:100%;width:.5em;min-width:.5em;cursor:ew-resize}.osjs-gui-panes-inner.osjs-gui-horizontal>.osjs-gui-panes-pane>.osjs-gui{height:100%}.osjs-gui-panes-inner.osjs-gui-horizontal>.osjs-gui-panes-spacer{width:100%;height:.5em;min-height:.5em;cursor:ns-resize}.osjs-gui-panes-pane{position:relative;margin:.5em;box-sizing:border-box;overflow:hidden;display:flex}.osjs-gui-panes-pane:last-of-type{flex-grow:1}.osjs-gui-progressbar-wrapper{display:flex;z-index:1;width:100%;line-height:2;padding:.5em;text-align:center;min-height:2em;position:relative;box-sizing:border-box;flex-grow:1}.osjs-gui-progressbar-value{position:absolute;top:0;left:0;width:0;height:100%;z-index:2}.osjs-gui-progressbar-label{z-index:3;position:absolute;top:0;left:0;width:100%;height:100%}.osjs-gui-progressbar-label>span{display:inline-block;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.osjs-gui-statusbar{white-space:nowrap}.osjs-gui-tabs{display:flex;flex:1 1}.osjs-gui-tabs-wrapper{display:flex;flex-grow:1;flex-direction:column}.osjs-gui-tabs-header{display:flex;flex-shrink:0}.osjs-gui-tabs-header>div{padding:.5em;cursor:pointer;position:relative;z-index:2;white-space:nowrap}.osjs-gui-tabs-panes{position:relative;z-index:1;flex-grow:1;display:flex;overflow:hidden}.osjs-gui-tabs-panes>div{display:none;padding:.5em;width:100%;overflow:auto}.osjs-gui-tabs-panes>div.osjs__active{display:flex;flex-grow:1;flex-shrink:1}.osjs-gui-toolbar{display:flex}.osjs-gui-toolbar>.osjs-gui{flex-shrink:0}.osjs-gui-toolbar.osjs-gui-vertical>.osjs-gui:not(:last-child){margin-right:1em}.osjs-gui-toolbar.osjs-gui-horizontal>.osjs-gui:not(:last-child){margin-bottom:1em}.osjs-root[data-dir=rtl] .osjs-gui-toolbar.osjs-gui-vertical>.osjs-gui:not(:last-child){margin-right:0;margin-left:1em}.osjs-root[data-dir=rtl] .osjs-gui-toolbar.osjs-gui-horizontal>.osjs-gui:not(:last-child){margin-bottom:0;margin-top:1em}.osjs-gui-iframe>iframe{display:block;border:0;background-color:#fff;position:absolute;top:0;left:0;box-sizing:border-box;width:100%;height:100%}.osjs-gui-expander{display:block}.osjs-gui-expander-wrapper{display:flex;flex-direction:column}.osjs-gui-expander-header{flex:1 1;display:flex;padding:.5em;cursor:pointer}.osjs-gui-expander-header-icon{flex:0 0;min-width:1em;margin-right:.5em}.osjs-gui-expander-header-icon:after{content:"▼"}.osjs-gui-expander-header-icon[data-active=true]:after{content:"▲"}.osjs-gui-expander-header-label{flex:1 1}.osjs-gui-expander-content{margin-top:1em}
+/*!
+ * OS.js - JavaScript Cloud/Web Desktop Platform
+ *
+ * Copyright (c) Anders Evenrud <andersevenrud@gmail.com>
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ *    list of conditions and the following disclaimer
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ * @author  Anders Evenrud <andersevenrud@gmail.com>
+ * @licence Simplified BSD License
+ */.osjs-dialog-buttons{justify-content:flex-end}.osjs-dialog-message,.osjs-dialog-status{margin-bottom:1em;min-height:1em;line-height:1.5}
+/*!
+ * OS.js - JavaScript Cloud/Web Desktop Platform
+ *
+ * Copyright (c) 2011-2020, Anders Evenrud <andersevenrud@gmail.com>
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ *    list of conditions and the following disclaimer
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ * @author  Anders Evenrud <andersevenrud@gmail.com>
+ * @licence Simplified BSD License
+ */.osjs-panel{display:flex;min-height:1em;align-items:center;box-sizing:border-box;position:absolute;left:0;right:0;line-height:normal}.osjs-panel[data-ontop=true]{z-index:16777271}.osjs-panel[data-position=top]{top:0}.osjs-panel[data-position=bottom]{bottom:0}.osjs-panel>.osjs-panel-item{min-height:1em;position:relative;box-sizing:border-box;padding:.6666666667em}.osjs-panel .osjs-panel-item--icon{display:flex;align-items:center}.osjs-panel .osjs-panel-item--icon>img{height:1em;margin-right:.5em}.osjs-root[data-dir=rtl] .osjs-panel .osjs-panel-item--icon>img{margin-right:0;margin-left:.5em}.osjs-panel-item[data-name=clock]{display:flex;align-items:center;white-space:nowrap}.osjs-panel-item[data-name=menu]{display:flex;align-items:center;padding:0}.osjs-panel-item[data-name=menu]>div{padding:.6666666667em}.osjs-panel-item[data-name=tray]{display:flex;padding:0}.osjs-panel-item[data-name=tray]>div{flex:1 1;padding:.6666666667em .3333333333em}.osjs-panel-item[data-name=tray]>div>img{margin-left:0!important;margin-right:0;vertical-align:middle}.osjs-panel-item[data-name=windows]{display:flex;flex:1 1;overflow:hidden;padding:0}.osjs-panel-item[data-name=windows]>div{cursor:pointer;flex:initial;padding:.6666666667em;min-width:4em}.osjs-panel-item[data-name=windows]>div>span{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+
+/*# sourceMappingURL=vendors~osjs.css.map*/
