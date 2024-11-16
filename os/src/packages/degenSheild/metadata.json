@@ -1,0 +1,16 @@
+{
+  "type": "application",
+  "name": "degenSheild",
+  "icon": "icon.png",
+  "category": null,
+  "server": null,
+  "title": {
+    "en_EN": "degenSheild"
+  },
+  "description": {
+    "en_EN": "degenSheild"
+  },
+  "files": [
+    "main.js"
+  ]
+}
