@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  text-align: center;
+  color: #000000 !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container-grid-token-transfers {
+  display: grid;
+  grid-template-rows: 220px;
+  grid-auto-rows: 220px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.card-columns {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+@media (max-width: 767.98px) {
+  .card-columns {
+    grid-template-columns: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-columns {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+.project-card {
+  border-top: 6px solid #50c5b7;
+  height: 140px;
+  transform: translateY(0px);
+  transition: 0.5s;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 8px;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  transition: 0.5s;
+}
+
+.project-card img {
+  padding: 40px;
+  max-height: 96%;
+  max-width: 96%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.fade-in-text {
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.fade-in-1s {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.fade-in-cards {
+  animation: fadeInCardColor 2s ease-out forwards;
+}
+
+@keyframes fadeInCardColor {
+  from {
+    background-color: #225082;
+  }
+  to {
+    background-color: #e1efe6;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 20%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.text-heading,
+.link-subheading {
+  color: #dfd6cc;
+}
+
+.link-subheading:hover {
+  color: #d89b7c;
+}
+
+.text-subheading {
+  color: #faead8;
+}
+
+.timestamp-subheading {
+  color: #93a8cc;
+}
+
+.tooltip {
+  @apply transition-all break-all mx-auto invisible absolute rounded shadow-lg px-2 bg-gray-200 text-gray-700 -mt-6 text-xs sm:text-base overflow-hidden;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50;
+}
