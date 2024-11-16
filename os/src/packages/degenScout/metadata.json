@@ -1,0 +1,16 @@
+{
+  "type": "application",
+  "name": "degenScout",
+  "icon": "icon.png",
+  "category": null,
+  "server": null,
+  "title": {
+    "en_EN": "degenScout"
+  },
+  "description": {
+    "en_EN": "degenScout"
+  },
+  "files": [
+    "main.js"
+  ]
+}

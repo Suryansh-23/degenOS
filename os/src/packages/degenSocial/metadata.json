@@ -1,0 +1,16 @@
+{
+  "type": "application",
+  "name": "LetsConnect",
+  "icon": "icon.png",
+  "category": null,
+  "server": null,
+  "title": {
+    "en_EN": "LetsConnect"
+  },
+  "description": {
+    "en_EN": "LetsConnect"
+  },
+  "files": [
+    "main.js"
+  ]
+}

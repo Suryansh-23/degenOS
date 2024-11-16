@@ -1,0 +1,16 @@
+{
+  "type": "application",
+  "name": "degenMetrics",
+  "icon": "icon.png",
+  "category": null,
+  "server": null,
+  "title": {
+    "en_EN": "degenMetrics"
+  },
+  "description": {
+    "en_EN": "degenMetrics"
+  },
+  "files": [
+    "main.js"
+  ]
+}

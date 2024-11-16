@@ -1,0 +1,16 @@
+{
+  "type": "application",
+  "name": "degenSwap",
+  "icon": "icon.png",
+  "category": null,
+  "server": null,
+  "title": {
+    "en_EN": "degenSwap"
+  },
+  "description": {
+    "en_EN": "degenSwap"
+  },
+  "files": [
+    "main.js"
+  ]
+}
