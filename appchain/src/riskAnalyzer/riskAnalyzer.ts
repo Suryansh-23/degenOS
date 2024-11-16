@@ -1,11 +1,20 @@
-export const calculateRiskScore = (
-    txnsLen: number,
-    contractAgeInDays: number,
-    price: number,
-    topHolders: any[],
-    marketCap: number,
-    volume: number
-) => {
+export type msg = {
+    txnsLen: number;
+    contractAgeInDays: number;
+    price: number;
+    topHolders: any[];
+    marketCap: number;
+    volume: number;
+};
+
+export const calculateRiskScore = ({
+    txnsLen,
+    contractAgeInDays,
+    price,
+    topHolders,
+    marketCap,
+    volume,
+}: msg) => {
     let score = 0;
     const detailedScores = [];
 

@@ -1,5 +1,7 @@
 import createClient from "openapi-fetch";
 import { components, paths } from "./schema";
+import { hexToString, stringToHex } from "viem";
+import { calculateRiskScore, msg } from "./riskAnalyzer/riskAnalyzer";
 
 type AdvanceRequestData = components["schemas"]["Advance"];
 type InspectRequestData = components["schemas"]["Inspect"];
@@ -9,15 +11,76 @@ type InspectRequestHandler = (data: InspectRequestData) => Promise<void>;
 type AdvanceRequestHandler = (
     data: AdvanceRequestData
 ) => Promise<RequestHandlerResult>;
+export type Notice = components["schemas"]["Notice"];
+export type Payload = components["schemas"]["Payload"];
+export type Report = components["schemas"]["Report"];
+export type Voucher = components["schemas"]["Voucher"];
 
 const rollupServer = process.env.ROLLUP_HTTP_SERVER_URL;
 console.log("HTTP rollup_server url is " + rollupServer);
 
-const handleAdvance: AdvanceRequestHandler = async (data) =>    {
+const createNotice = async (payload: Notice) => {
+    console.log("creating notice with payload", payload);
+
+    await fetch(`${rollupServer}/notice`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+    });
+};
+
+const createVoucher = async (payload: Voucher) => {
+    await fetch(`${rollupServer}/voucher`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+    });
+};
+
+const createReport = async (payload: Report) => {
+    await fetch(`${rollupServer}/report`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+    });
+};
+
+const handleAdvance: AdvanceRequestHandler = async (data) => {
     console.log("Received advance request data " + JSON.stringify(data));
 
-    const sender = data["metadata"]["msg_sender"];
-    
+    const dataPayload = data.payload as Payload;
+    const payload = JSON.parse(hexToString(dataPayload)) as {
+        operation: string;
+        msg: unknown;
+    };
+    switch (payload.operation) {
+        case "LOGIN":
+            break;
+        case "ANALYZE_RISK":
+            console.log(payload.msg);
+
+            try {
+                const args = payload.msg as msg;
+                const res = calculateRiskScore(args);
+                console.log(res);
+
+                await createNotice({
+                    payload: stringToHex(JSON.stringify(res)),
+                });
+            } catch (error) {
+                console.error("Error processing sent msg:", error);
+            }
+            break;
+        default:
+            console.error("Unknown operation type");
+            break;
+    }
 
     return "accept";
 };
