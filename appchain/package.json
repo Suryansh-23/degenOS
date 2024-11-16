@@ -1,0 +1,28 @@
+{
+  "name": "my-dapp",
+  "version": "0.1.0",
+  "description": "TypeScript DApp",
+  "dependencies": {
+    "openapi-fetch": "^0.7",
+    "viem": "^1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "esbuild": "^0.19",
+    "npm-run-all": "^4",
+    "openapi-typescript": "^6",
+    "ts-node": "^10",
+    "typescript": "^5",
+    "vitest": "^0.34"
+  },
+  "scripts": {
+    "build": "run-s codegen compile",
+    "codegen": "ts-node schema.ts",
+    "compile": "tsc && esbuild ./src/index.ts --bundle --outfile=dist/index.js --platform=node --target=node20",
+    "start": "ROLLUP_HTTP_SERVER_URL=\"http://127.0.0.1:5004\" ts-node src/index.ts"
+  },
+  "keywords": [
+    "cartesi"
+  ],
+  "license": "MIT"
+}
