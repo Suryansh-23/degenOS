@@ -1,0 +1,29 @@
+{
+  "name": "service",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cors": "^2.8.17", 
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "express": "^4.21.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "graphql-request": "^7.1.2",
+    "viem": "^2.21.45"
+  }
+}
