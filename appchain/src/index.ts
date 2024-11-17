@@ -2,6 +2,7 @@ import createClient from "openapi-fetch";
 import { components, paths } from "./schema";
 import { hexToString, stringToHex } from "viem";
 import { calculateRiskScore, msg } from "./riskAnalyzer/riskAnalyzer";
+import { Accounts } from "./accounts";
 
 type AdvanceRequestData = components["schemas"]["Advance"];
 type InspectRequestData = components["schemas"]["Inspect"];
@@ -18,6 +19,9 @@ export type Voucher = components["schemas"]["Voucher"];
 
 const rollupServer = process.env.ROLLUP_HTTP_SERVER_URL;
 console.log("HTTP rollup_server url is " + rollupServer);
+
+const acc = new Accounts();
+console.log("[OS] Accounts Directory Initialized");
 
 const createNotice = async (payload: Notice) => {
     console.log("creating notice with payload", payload);
@@ -61,6 +65,26 @@ const handleAdvance: AdvanceRequestHandler = async (data) => {
     };
     switch (payload.operation) {
         case "LOGIN":
+            const sender = data["metadata"]["msg_sender"];
+            console.log("Login request from", sender);
+
+            const [newUser, ts] = acc.login(sender);
+            if (newUser) {
+                console.log("New user added");
+            }
+            console.log("User Logged in");
+
+            createReport({
+                payload: stringToHex(
+                    JSON.stringify({
+                        operation: "LOGIN",
+                        newUser,
+                        address: sender,
+                        timestamp: ts,
+                    })
+                ),
+            });
+
             break;
         case "ANALYZE_RISK":
             console.log(payload.msg);
