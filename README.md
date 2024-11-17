@@ -1,10 +1,14 @@
 # DegenOS
 
+![](./public/cover.jpg)
+
 ## Overview
 
 DegenOS is a revolutionary decentralized operating system built on Cartesi Rollups with Avail as its Data Availability (DA) layer. It provides a comprehensive suite of Web3 applications within a unified, secure environment, enabling users to interact with various decentralized services through a seamless interface. Users can connect their wallets and sign in via email or wallets using Dynamic, enabling access to multiple integrated dApps.
 
 ## System Architecture
+
+![](./public/architecture.png)
 
 ### Core Infrastructure
 
