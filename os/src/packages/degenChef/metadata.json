@@ -1,0 +1,16 @@
+{
+  "type": "application",
+  "name": "degenChef",
+  "icon": "icon.png",
+  "category": null,
+  "server": null,
+  "title": {
+    "en_EN": "degenChef"
+  },
+  "description": {
+    "en_EN": "degenChef"
+  },
+  "files": [
+    "main.js"
+  ]
+}
